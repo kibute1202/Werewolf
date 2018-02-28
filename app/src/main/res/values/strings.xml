@@ -1,0 +1,270 @@
+<resources>
+    <string name="app_name">Werewolf</string>
+
+    <!-- Dialog -->
+    <string name="progress_title">Please wait...</string>
+    <string name="progress_msg">Get Data...</string>
+
+    <string name="agree">Agree</string>
+    <string name="disagree">Disagree</string>
+    <string name="main_room_is_start_title">Room Starting...</string>
+    <string name="main_room_is_start_content">The room has started playing, please choose another room or wait a moment.</string>
+
+    <!-- Game Option -->
+    <string name="opt_one_machine">One Machine</string>
+    <string name="opt_multi_machine">Multi Machine</string>
+    <string name="opt_werewolf_library">Library</string>
+    <string name="werewolf_setting">Werewolf Setting</string>
+    <string name="opt_about">About</string>
+
+    <!-- Fragment Players -->
+    <string name="player_app_bar">Players</string>
+    <string name="btn_players_next">Next</string>
+    <string name="menu_title_player_lib">Players Library</string>
+    <string name="player_error_small_number">Number of players is too small. Minimum number player is 6</string>
+    <string name="players_title">Add new player below. Roles will be selected in the next step.</string>
+
+    <!-- Fragment Players Library -->
+    <string name="player_library_app_bar">Players Library</string>
+    <string name="menu_title_help">Help</string>
+    <string name="dialog_content_help">The players library lets you store player information for later use.</string>
+    <string name="dialog_delete_player_lib_title">Delete Player</string>
+    <string name="dialog_delete_player_lib_content">Delete Player in Player Library</string>
+
+    <!-- Fragment Players Add -->
+    <string name="player_add_app_bar">Add Players</string>
+    <string name="player_edit_app_bar">Edit Players</string>
+    <string name="menu_title_save">Save</string>
+    <string name="player_add_name_player">Player Name</string>
+    <string name="player_add_check_box_text">Add to players library</string>
+    <string name="player_edit_remove">Remove Player in list game</string>
+    <string name="player_add_dialog_title_picture">Select Profile Image</string>
+    <string-array name="player_add__picture_chose">
+        <item>Take Photo</item>
+        <item>Chose from Library</item>
+    </string-array>
+    <string name="error_field_name">This field is required</string>
+    <string name="error_long_name">The name is too long. Maximum: </string>
+    <string name="error_exist_name">The name is exist</string>
+    <string name="lib_dialog_help_content">The players library lets you store player information for later use. \nClick to using game. \nLong click to delete player</string>
+
+    <!-- Fragment Roles -->
+    <string name="roles_app_bar">Roles</string>
+    <string name="roles_title">Customize the population, wolves and functional leaves accordingly below.</string>
+    <string name="btn_role_start">Start Shuffle Role</string>
+    <string name="roles_dialog_error_title">Next Error</string>
+    <string name="roles_dialog_error_wolf_min_content">Wolf too small. Minimum: </string>
+    <string name="roles_dialog_error_wolf_max_content">Wolf too big. Maximum: </string>
+
+    <!-- Fragment Shuffle -->
+    <string name="shuffle_player_help">Hand the device to this player. Click button to show role.</string>
+    <string name="btn_shuffle_text_show_role">Show Role</string>
+    <string name="btn_shuffle_text_done">Done</string>
+    <string name="btn_shuffle_text_start_game">Start Game</string>
+
+    <!-- Fragment Night -->
+    <string name="tv_night">Night: </string>
+    <string name="btn_night_text">Start Night: </string>
+
+    <!-- Fragment Day -->
+    <string name="tv_day">Day: </string>
+    <string name="tv_text_number_dead">Number Dead: </string>
+    <string name="btn_day_text">Start Discuss</string>
+
+    <!-- Fragment Discuss -->
+    <string name="tv_create_timer">00:00:00</string>
+    <string name="tv_discuss">Day: </string>
+    <string name="btn_discuss_text">Start Night: </string>
+    <string name="btn_discuss_text_start_timer">Start Timer</string>
+    <string name="btn_discuss_text_time_up">TIME\'S UP!!</string>
+    <string name="tv_select_player_die">Long click select or unselected a player to execute the Hanged function.</string>
+    <string name="tv_discuss_history">Discuss hanged: </string>
+    <string name="old_village_died">Old Village died</string>
+    <string name="inverse_person_select">Inverse Person Selected</string>
+    <string name="wolf_bite_sick_hui">The night before, Wolf bite sick Hui</string>
+    <string name="idiot_no_hanged">Idiot is not Hanged</string>
+    <string name="dialog_player_grandmother_select_title">Grandmother Select Players</string>
+    <string name="dialog_player_grandmother_select">The following players are not allowed to vote</string>
+
+    <!-- Fragment Wolf Sniffing -->
+    <string name="wolf_sniffing_show_tile">Wolf Sniffing Show Info</string>
+    <string name="wolf_sniffing_show_content">This is Old Village or Prophet</string>
+    <string name="wolf_sniffing_show_not_content">This is Not Old Village and Prophet</string>
+
+    <!-- Fragment Wolf -->
+    <string name="wolf_tv_commend">Long click select or unselected a player to execute the function.</string>
+    <string name="brother_sister">First night. Let these roles meet.</string>
+    <string name="prophet_text">Select a player to execute the function.</string>
+    <string name="wolf_bite_error_title">Bite Error</string>
+    <string name="wolf_bite_error_content">Wolf bites people failed. Maximum: </string>
+    <string name="wolf_tile">Werewolf Information</string>
+    <string name="wolf_baby_die_content">Wolf Baby Died. To kill another person.</string>
+
+    <!-- Fragment Cupid -->
+    <string name="cupid_btn_call_couple">Sleep Cupid. Call Couple</string>
+    <string name="cupid_dialog_next_error_title">Next Cupid Error</string>
+    <string name="cupid_dialog_next_error_content">Next Cupid failed. Minimum: </string>
+
+    <!-- Fragment Prophet -->
+    <string name="prophet_show_tile">Prophet Show Info</string>
+    <string name="prophet_show_wolf_content">This is Wolf</string>
+    <string name="prophet_show_not_wolf_content">This is Not Wolf</string>
+
+    <!-- Fragment Security -->
+    <string name="security_help_error_title">Security Error</string>
+    <string name="security_help_error_content">Security people failed. Maximum: </string>
+
+    <!-- Fragment Witch -->
+    <string name="text_poison">Poison</string>
+    <string name="text_elixir">Assist</string>
+    <string name="witch_poison_error_title">Poisoning Error</string>
+    <string name="witch_poison_error_content">Poisoning people failed. Maximum: </string>
+    <string name="witch_elixir_error_title">Assist Error</string>
+    <string name="witch_elixir_error_content">Rescue failed. Maximum: </string>
+
+    <!-- Fragment Hunter -->
+    <string name="hunter_select_error_title">Select Players</string>
+    <string name="hunter_select_error_content">Select players failed. Maximum: </string>
+
+    <!-- Fragment History -->
+    <string name="text_bite">Bite</string>
+    <string name="text_assist">Assist</string>
+    <string name="text_security">Security</string>
+    <string name="text_hanged">Hanged</string>
+    <string name="text_hunter_select">Select</string>
+
+    <!-- Fragment Endgame -->
+    <string name="text_btn_new_game">New Game</string>
+    <string name="text_win_village">Village Win</string>
+    <string name="text_win_wolf">Wolf Win</string>
+    <string name="text_win_couple">Couple Win</string>
+
+    <!-- GamePlay -->
+    <string name="dialog_title_outgame">Exit Game</string>
+    <string name="dialog_content_outgame">You will return to the options screen of the game. Are you sure?</string>
+
+    <!-- Fragment Hanged -->
+    <string name="hanged_error_title">Hanged Error</string>
+    <string name="hanged_error_content">Hanged failed. Maximum: </string>
+
+    <!-- Setting  -->
+    <string name="number_wolf_bite">Number Wolf Bite: </string>
+    <string name="number_security_help">Number Security Help: </string>
+    <string name="number_witch_poison">Number Witch Poison: </string>
+    <string name="number_witch_assist">Number Witch Assist: </string>
+    <string name="number_hunter_select">Number Hunter Select: </string>
+    <string name="number_hanged">Number Hanged: </string>
+    <string name="number_grandmother_select">Number Grandmother Select: </string>
+    <string name="timer_discuss">Timer Discuss: </string>
+    <string name="min">Min</string>
+    <string name="dialog_title_save_setting">Save Setting</string>
+    <string name="dialog_content_save_setting">Are you sure?</string>
+    <string name="menu_title_save_setting">Save Setting</string>
+
+    <!-- Permission  -->
+    <string name="permission_necessary_title">Permission Necessary</string>
+    <string name="permission_necessary_content">External storage permission is necessary</string>
+
+    <!-- About -->
+    <string name="about_tile">About</string>
+    <string name="about_content">Apps help players learn about the characters in the game faster. The manager does not need to prepare cards or notes after each turn.
+            \n\nNeed support or suggestions for F.A.T, please contact email:
+            \n\nnguyenkien25@gmail.com</string>
+
+    <!-- Language  -->
+    <string name="dialog_language_title">Chose Language</string>
+    <string-array name="language_chose">
+        <item>en</item>
+        <item>vi</item>
+    </string-array>
+
+    <string-array name="language_chose_show">
+        <item>English</item>
+        <item>Vietnamese</item>
+    </string-array>
+
+    <string-array name="number_chose_show">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <!-- List Roles -->
+    <string name="villagers">Villagers</string>
+    <string name="village_info">Dead when killed. There is also a voting function hanging people the next morning.</string>
+
+    <string name="black_wolf">WolfBoss</string>
+    <string name="black_wolf_info">Wake up each evening with the other wolves to kill the villagers. The Prophet will look at the WolfBoss as a village.</string>
+
+    <string name="three_brothers">Three Brothers</string>
+    <string name="three_brothers_info">Three brothers woke up in the first evening to get to know each other. They are just normal villagers but can know each other.</string>
+
+    <string name="two_girls">Two Girls</string>
+    <string name="two_girls_info">Two girls woke up in the first evening to get to know each other. They are just normal villagers but can know each other.</string>
+
+    <string name="builder">Builder</string>
+    <string name="builder_info">Builders woke up in the first evening to get to know each other. They are just normal villagers but can know each other.</string>
+
+    <string name="old_village">Old Village</string>
+    <string name="old_village_info">Old Village has two hearts when bitten. However, if hanged, hunted by Hunters or killed by the Prophet, the old village still dies, all special roles (guard, prophet, witch, hunter,...) are lost function.</string>
+
+    <string name="protector">Protector</string>
+    <string name="protector_info">Every night waking up. Protection will be selected one person. If the wolf bites him, he will not die. It can protect itself but Protection is not protected in a person or night in a row. Note: Protected people may still die due to poisoning by the Witch.</string>
+
+    <string name="wolf">Wolf</string>
+    <string name="wolf_info">Every night waking, the wolves will know each other and kill one person. Wolves have the right not to kill, and also have the right to kill each other.</string>
+
+    <string name="prophet">Prophet</string>
+    <string name="prophet_info">Choose a player every night to see if the person is a wolf or not.</string>
+
+    <string name="witch">Witch</string>
+    <string name="witch_info">The witch has a rescue and a poison throughout the game.</string>
+
+    <string name="hunter">Hunter</string>
+    <string name="hunter_info">Every night waking, pick a person. If the hunter dies in any form, the chosen person will die.</string>
+
+    <string name="inverse_person">Inverse Person</string>
+    <string name="inverse_person_info">Every night waking, pick a person. The selected person will be inverted at night:
+    \n\nThe villagers did not kill the villagers
+    \n\nProtection does not protect the villagers
+    \n\nThe witch does not kill, save the person
+    \n\nVillage elders will die when the wolves are bitten,...</string>
+
+    <string name="cupid">Cupid</string>
+    <string name="cupid_info">At the beginning of each game, Cupid will be called up and picked out two lovers. Cupid then closes his eyes and the two lovers will be called up by the Admin to know each other\'s faces and roles. If they are different or different, they are the third party with the last two survivors.</string>
+
+    <string name="nomads">Nomads</string>
+    <string name="nomads_info">Every night waking, pick a person. If the player dies in the night, you die. You can not be killed directly</string>
+
+    <string name="idiot">Idiot</string>
+    <string name="idiot_info">Are ordinary people However, when hanged, the idiot will not die, but should be exposed and lost votes, although can participate in discussions with people.</string>
+
+    <string name="grandmother">Grandmother</string>
+    <string name="grandmother_info">Every night waking, pick a person. The player is not voted on all day.</string>
+
+    <string name="hui_sick">Sick Hui</string>
+    <string name="hui_sick_info">When you are killed by wolves. Then the wolf would not kill the villagers the next night.</string>
+
+    <string name="mad_scientist">Mad Scientist</string>
+    <string name="mad_scientist_info">When dying for any reason. You launch the poison killing two people next to you.</string>
+
+    <string name="bully">Bully</string>
+    <string name="bully_info">When killed by wolves. You will live until the end of the next day.</string>
+
+    <string name="wolf_baby">Wolf Baby</string>
+    <string name="wolf_baby_info">Wake up each evening with the other wolves to kill the villagers. When you die, the next night the werewolf will kill another villager.</string>
+
+    <string name="wolf_sniffing">Wolf Sniffing</string>
+    <string name="wolf_sniffing_info">Wake up each evening with the other wolves to kill the villagers. Wake up again, you choose a person to seek prophetic, old village.</string>
+
+    <string name="knight">Knight</string>
+    <string name="knight_info">If the Knight dies of any form, the Werewolf on the left side of the knight will die.</string>
+    <string name="opt_settings">settings</string>
+</resources>

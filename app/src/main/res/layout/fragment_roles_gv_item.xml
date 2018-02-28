@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:padding="@dimen/detail_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorDetail"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/detail_padding"
+        android:paddingTop="@dimen/detail_padding">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/gv_players_item"
+            android:layout_height="@dimen/gv_players_item"
+            android:layout_gravity="center"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:src="@drawable/cover"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/name_role"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/album_title_padding"
+            android:layout_marginRight="@dimen/album_title_padding"
+            android:layout_marginTop="@dimen/album_title_padding"
+            android:layout_toLeftOf="@+id/btn_add"
+            android:layout_toRightOf="@+id/btn_dev"
+            android:gravity="center"
+            android:textColor="@color/album_title"
+            android:textSize="@dimen/album_title" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_sub"
+                android:layout_width="@dimen/ic_sub_add_width"
+                android:layout_height="@dimen/ic_sub_add_height"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/album_title_padding"
+                android:layout_marginTop="@dimen/album_title_padding"
+                android:background="@drawable/ic_sub"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="@dimen/ic_sub_add_width"
+                android:layout_height="@dimen/ic_sub_add_height"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/album_title_padding"
+                android:layout_marginTop="@dimen/album_title_padding"
+                android:background="@drawable/ic_add"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/number_player"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/album_title_padding"
+                android:layout_toLeftOf="@+id/btn_add"
+                android:layout_toRightOf="@+id/btn_sub"
+                android:gravity="center"
+                android:textColor="@color/album_title"
+                android:textSize="@dimen/album_title" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

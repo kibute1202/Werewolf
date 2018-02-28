@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_game_option"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/log_login_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:padding="@dimen/detail_padding">
+
+                <kh.nobita.hang.widget.CustomButton
+                    android:id="@+id/btnOneMachine"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="72dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="@dimen/detail_padding"
+                    android:background="@drawable/custom_bg_button"
+                    android:text="@string/opt_one_machine"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    app:fontFamily="@string/font_menu" />
+
+                <kh.nobita.hang.widget.CustomButton
+                    android:id="@+id/btnMultiMachine"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="72dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="@dimen/detail_padding"
+                    android:background="@drawable/custom_bg_button"
+                    android:text="@string/opt_multi_machine"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    app:fontFamily="@string/font_menu" />
+
+                <kh.nobita.hang.widget.CustomButton
+                    android:id="@+id/btnSettings"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="72dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="@dimen/detail_padding"
+                    android:background="@drawable/custom_bg_button"
+                    android:text="@string/opt_settings"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    app:fontFamily="@string/font_menu" />
+
+                <kh.nobita.hang.widget.CustomButton
+                    android:id="@+id/btnLibrary"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="72dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="@dimen/detail_padding"
+                    android:background="@drawable/custom_bg_button"
+                    android:text="@string/opt_werewolf_library"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    app:fontFamily="@string/font_menu" />
+
+                <kh.nobita.hang.widget.CustomButton
+                    android:id="@+id/btnAbout"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="72dp"
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginStart="72dp"
+                    app:fontFamily="@string/font_menu"
+                    android:layout_marginTop="@dimen/detail_padding"
+                    android:background="@drawable/custom_bg_button"
+                    android:maxLines="1"
+                    android:text="@string/opt_about"
+                    android:textColor="@color/colorWhite"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</layout>

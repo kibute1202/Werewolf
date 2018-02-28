@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_werewolf_lib">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/gv_werewolf_library"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/detail_padding"
+        android:layout_marginTop="@dimen/detail_padding"
+        android:background="@android:color/transparent"
+        android:clipToPadding="false"
+        android:columnWidth="@dimen/item_width" />
+</RelativeLayout>

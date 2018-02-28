@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background">
+
+    <TextView
+        android:id="@+id/tv_night_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_padding"
+        android:gravity="center"
+        android:text="@string/btn_shuffle_text_done"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/btn_shuffle_text_done"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/gv_player_in_night"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_next"
+        android:layout_below="@+id/tv_night_comment"
+        android:layout_marginBottom="@dimen/detail_padding"
+        android:layout_marginTop="@dimen/detail_padding"
+        android:background="@android:color/transparent"
+        android:clipToPadding="false"
+        android:columnWidth="@dimen/item_width" />
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detail_content_activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/players_add_image"
+            android:layout_height="@dimen/players_add_image"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:src="@android:drawable/ic_menu_camera"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorDetail"
+            android:orientation="vertical"
+            android:padding="@dimen/detail_padding">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/et_player_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/detail_padding"
+                    android:drawableLeft="@drawable/ic_name_player"
+                    android:drawablePadding="@dimen/detail_padding"
+                    android:gravity="center_vertical"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:padding="@dimen/detail_padding"
+                    android:textColor="@color/colorWhite"
+                    android:textColorHint="@color/colorWhite"
+                    android:textSize="@dimen/text_size" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorDetail"
+            android:gravity="center"
+            android:padding="@dimen/detail_padding">
+
+            <CheckBox
+                android:id="@+id/cb_check_add_to_library"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/detail_padding"
+                android:text="@string/player_add_check_box_text"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_size" />
+
+            <ImageView
+                android:id="@+id/img_cb_help"
+                android:layout_width="@dimen/ic_check_width"
+                android:layout_height="@dimen/ic_check_height"
+                android:layout_marginLeft="@dimen/detail_padding"
+                android:layout_marginTop="@dimen/detail_padding"
+                android:layout_toRightOf="@+id/cb_check_add_to_library"
+                android:scaleType="centerCrop"
+                android:src="@android:drawable/ic_menu_help" />
+
+            <TextView
+                android:id="@+id/tv_remove_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb_check_add_to_library"
+                android:layout_marginTop="@dimen/detail_padding"
+                android:drawableLeft="@android:drawable/ic_delete"
+                android:gravity="center"
+                android:text="@string/player_edit_remove"
+                android:textColor="@color/colorRed"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

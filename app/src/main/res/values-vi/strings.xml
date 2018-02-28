@@ -1,0 +1,254 @@
+<resources>
+    <string name="app_name">Ma Sói</string>
+
+    <!-- Dialog -->
+    <string name="progress_title">Xin chờ một xíu...</string>
+    <string name="progress_msg">Đang lấy dữ liệu...</string>
+
+    <string name="agree">Đồng Ý</string>
+    <string name="disagree">Không Đồng Ý</string>
+    <string name="main_room_is_start_title">Phòng đang chơi...</string>
+    <string name="main_room_is_start_content">Phòng đã bắt đầu chơi, bạn hãy chọn phòng khác hoặc chờ trong giây lát</string>
+
+    <!-- Game Option -->
+    <string name="opt_one_machine">Dùng Một Máy</string>
+    <string name="opt_multi_machine">Dùng Nhiều Máy</string>
+    <string name="opt_werewolf_library">Thư Viện Nhân Vật</string>
+    <string name="werewolf_setting">Cài Đặt Trò Chơi</string>
+    <string name="opt_about">Giới Thiệu</string>
+
+    <!-- Fragment Players -->
+    <string name="player_app_bar">Người chơi</string>
+    <string name="btn_players_next">Tiếp Tục</string>
+    <string name="menu_title_player_lib">Thư viện người chơi</string>
+    <string name="player_error_small_number">Số người chơi quá ít. Số lượng đề nghị tối thiểu là 6</string>
+    <string name="players_title">Thêm người chơi tiếp theo bên dưới. Các vai diễn sẽ được lựa chọn trong bước tiếp theo.</string>
+
+    <!-- Fragment Players Library -->
+    <string name="player_library_app_bar">Thư Viện Người Chơi</string>
+    <string name="menu_title_help">Trợ Giúp</string>
+    <string name="dialog_content_help">Thư viện người chơi cho phép bạn lưu trữ thông tin người chơi để sữ dụng sau.</string>
+    <string name="dialog_delete_player_lib_title">Xóa người chơi</string>
+    <string name="dialog_delete_player_lib_content">Xóa người chơi được lưu trong thư viện người chơi</string>
+
+    <!-- Fragment Players Add -->
+    <string name="player_add_app_bar">Thêm Người Chơi Mới</string>
+    <string name="player_edit_app_bar">Sửa Người Chơi</string>
+    <string name="menu_title_save">Lưu Lại</string>
+    <string name="player_add_name_player">Tên Người Chơi</string>
+    <string name="player_add_check_box_text">Thêm vào thư viện người chơi</string>
+    <string name="player_edit_remove">Xóa người chơi ra khỏi danh sách trò chơi</string>
+    <string name="player_add_dialog_title_picture">Chọn Ảnh Từ Hồ Sơ</string>
+    <string-array name="player_add__picture_chose">
+        <item>Chụp ảnh mới từ Camera</item>
+        <item>Chọn ảnh từ Thư Viện</item>
+    </string-array>
+    <string name="error_field_name">Bạn phải nhận tên của người chơi</string>
+    <string name="error_long_name">Tên người chơi quá dài. Tối đa là: </string>
+    <string name="error_exist_name">Tên người chơi đã tồn tại</string>
+    <string name="lib_dialog_help_content">Thư viện người chơi cho phép bạn lưu trữ thông tin người chơi để sữ dụng sau. \nNhấn để chọn người chơi. \nNhấn giữ để xóa người chơi đó.</string>
+
+    <!-- Fragment Roles -->
+    <string name="roles_app_bar">Vai</string>
+    <string name="roles_title">Tùy chỉnh số lượng dân, sói và các lá chức năng cho phù hợp ở bên dưới.</string>
+    <string name="btn_role_start">Bắt Đầu Chia Vai Trò</string>
+    <string name="roles_dialog_error_title">Tiếp Tục Thất Bại</string>
+    <string name="roles_dialog_error_wolf_min_content">Số lượng Ma Sói quá ít. Tối thiểu là: </string>
+    <string name="roles_dialog_error_wolf_max_content">Số lượng Ma Sói quá lớn. Tối đa là: </string>
+
+    <!-- Fragment Shuffle -->
+    <string name="shuffle_player_help">Đưa thiết bị cho người chơi này. Nhấp vào nút để hiển thị vai trò</string>
+    <string name="btn_shuffle_text_show_role">Hiện Vai Trò</string>
+    <string name="btn_shuffle_text_done">Xong</string>
+    <string name="btn_shuffle_text_start_game">Trò Chơi Bắt Đầu</string>
+
+    <!-- Fragment Night -->
+    <string name="tv_night">Đêm Thứ: </string>
+    <string name="btn_night_text">Bắt Đầu Đêm: </string>
+
+    <!-- Fragment Day -->
+    <string name="tv_day">Ngày Thứ: </string>
+    <string name="btn_day_text">Bắt Đầu Thảo Luận</string>
+
+    <!-- Fragment Discuss -->
+    <string name="tv_create_timer">00:00:00</string>
+    <string name="tv_discuss">Ngày Thứ: </string>
+    <string name="btn_discuss_text">Bắt Đầu Đêm: </string>
+    <string name="btn_discuss_text_start_timer">Bắt Đầu Đồng Hồ</string>
+    <string name="btn_discuss_text_time_up">HẾT GIỜ RỒI!!</string>
+    <string name="tv_select_player_die">Nhấn giữ để chọn hoặc hủy chọn một người chơi để thực thi chức năng Treo Cổ.</string>
+    <string name="tv_discuss_history">Bình Chọn Treo Cổ: </string>
+    <string name="old_village_died">Già Làng đã chết</string>
+    <string name="inverse_person_select">Người nghịch đảo chọn</string>
+    <string name="wolf_bite_sick_hui">Đêm trước, Ma Sói đã căn chết người bị bệnh Hủi</string>
+    <string name="idiot_no_hanged">Thằng Khờ không bị treo cổ</string>
+    <string name="dialog_player_grandmother_select_title">Bà Ngoại Cáu Kỉnh Chọn Người Chơi</string>
+    <string name="dialog_player_grandmother_select">Những người chơi sau không được bỏ phiếu bình chọn:</string>
+
+    <!-- Fragment Wolf Sniffing -->
+    <string name="wolf_sniffing_show_tile">Ma Sói Đánh Hơi hiện thông tin</string>
+    <string name="wolf_sniffing_show_content">Đây là Già Làng hoặc Tiên Tri</string>
+    <string name="wolf_sniffing_show_not_content">Đây không phải là Già Làng và Tiên Tri</string>
+
+    <!-- Fragment Wolf -->
+    <string name="wolf_tv_commend">Nhấn giữ để chọn hoặc hủy chọn một người chơi để thực thi chức năng.</string>
+    <string name="brother_sister">Đêm đầu. Cho những vai trò trên gặp nhau.</string>
+    <string name="prophet_text">Chọn một người chơi để thực thi chức năng.</string>
+    <string name="wolf_bite_error_title">Cắn Thất Bại</string>
+    <string name="wolf_bite_error_content">Sói cắn người thất bại. Tối đa là: </string>
+    <string name="wolf_tile">Thông Tin Ma Sói</string>
+    <string name="wolf_baby_die_content">Ma Sói Con đã chết. Được giết thêm một người nữa.</string>
+
+    <!-- Fragment Cupid -->
+    <string name="cupid_btn_call_couple">Cupid ngủ. Cặp Đôi dậy</string>
+    <string name="cupid_dialog_next_error_title">Thần Tình Ái tiếp tục lỗi</string>
+    <string name="cupid_dialog_next_error_content">Thần Tình Ái tiếp tục thất bại. Tối thiểu là: </string>
+
+    <!-- Fragment Prophet -->
+    <string name="prophet_show_tile">Tiên Tri hiện thông tin</string>
+    <string name="prophet_show_wolf_content">Đây là Sói</string>
+    <string name="prophet_show_not_wolf_content">Đây không phải Sói</string>
+
+    <!-- Fragment Security -->
+    <string name="security_help_error_title">Bảo Vệ Thất Bại</string>
+    <string name="security_help_error_content">Bảo vệ người thất bại. Tối đa là: </string>
+
+    <!-- Fragment Witch -->
+    <string name="text_poison">Thuốc Độc</string>
+    <string name="text_elixir">Cứu Người</string>
+    <string name="witch_poison_error_title">Đầu Độc Lỗi</string>
+    <string name="witch_poison_error_content">Đầu độc người thất bại. Tối đa là: </string>
+    <string name="witch_elixir_error_title">Cứu Trợ Lỗi</string>
+    <string name="witch_elixir_error_content">Cứu người thất bại. Tối đa là: </string>
+
+    <!-- Fragment Hunter -->
+    <string name="hunter_select_error_title">Chọn Người Chơi</string>
+    <string name="hunter_select_error_content">Chọn người chơi thất bại. Tối đa là: </string>
+
+    <!-- Fragment History -->
+    <string name="text_bite">Cắn</string>
+    <string name="text_assist">Cứu</string>
+    <string name="text_security">Bảo Vệ</string>
+    <string name="text_hanged">Treo Cổ</string>
+    <string name="text_hunter_select">Chọn</string>
+
+    <!-- Fragment Endgame -->
+    <string name="text_btn_new_game">Trò Chơi Mới</string>
+    <string name="text_win_village">Dân Làng Thắng</string>
+    <string name="text_win_wolf">Sói Thắng</string>
+    <string name="text_win_couple">Cặp Đôi Thắng</string>
+
+    <!-- GamePlay -->
+    <string name="dialog_title_outgame">Thoát Trò Chơi</string>
+    <string name="dialog_content_outgame">Bạn sẽ quay về màn hình tùy chọn của trò chơi. Bạn có chắc chắn</string>
+
+    <!-- Fragment Hanged -->
+    <string name="hanged_error_title">Treo Cỗ Lỗi</string>
+    <string name="hanged_error_content">Treo cỗ thất bại. Tối đa là: </string>
+
+    <!-- Setting  -->
+    <string name="number_wolf_bite">Số lượng sói căn tối đa: </string>
+    <string name="number_security_help">Số lượng cứu tối đa: </string>
+    <string name="number_witch_poison">Số lượng Phù Thủy đầu độc tối đa: </string>
+    <string name="number_witch_assist">Số lượng Phù Thủy cứu tối đa: </string>
+    <string name="number_hunter_select">Số lượng Thợ Săn chọn: </string>
+    <string name="number_hanged">Số lượng người bị Treo Cổ: </string>
+    <string name="number_grandmother_select">Số lượng bà ngoại cáu kỉnh chọn: </string>
+    <string name="timer_discuss">Thời gian thảo luận: </string>
+    <string name="min">Phút</string>
+    <string name="dialog_title_save_setting">Lưu Cài Đặt</string>
+    <string name="dialog_content_save_setting">Bạn có chắc chắn không?</string>
+
+    <!-- Permission  -->
+    <string name="permission_necessary_title">Quyền truy cập cần thiết</string>
+    <string name="permission_necessary_content">Yêu cầu truy cập bộ nhớ là cần thiết</string>
+
+    <!-- About -->
+    <string name="about_tile">Giới Thiệu</string>
+    <string name="about_content">Ứng dụng giúp người chơi tìm hiểu về các nhân vật trong trò chơi nhanh hơn. Người quản trò không cần chuẩn bị những lá bài hay bảng ghi chú sau từng lượt trò chơi.
+            \n\nCần hỗ trợ hoặc gợi ý cho F.A.T, vui lòng liên hệ email:
+            \n\nnguyenkien25@gmail.com</string>
+
+    <!-- Language  -->
+    <string name="dialog_language_title">Chọn Ngôn Ngữ</string>
+    <string-array name="language_chose">
+        <item>en</item>
+        <item>vi</item>
+    </string-array>
+
+    <string-array name="language_chose_show">
+        <item>Tiếng Anh</item>
+        <item>Tiếng Việt</item>
+    </string-array>
+
+    <!-- List Roles -->
+    <string name="villagers">Dân</string>
+    <string name="village_info">Chết khi bị giết. Ngoài ra còn có chức năng bỏ phiếu treo người khác vào sáng hôm sau.</string>
+
+    <string name="black_wolf">Sói Trùm</string>
+    <string name="black_wolf_info">Thức dậy mỗi tối cùng các Ma Sói khác để giết dân làng. Tiên Tri sẽ soi Sói Trùm là Dân Làng.</string>
+
+    <string name="three_brothers">Ba Anh Em</string>
+    <string name="three_brothers_info">Ba anh em thức dậy trong buổi tối đầu tiên để nhận biết nhau. Cũng chỉ là dân làng bình thường nhưng có thể biết mặt nhau.</string>
+
+    <string name="two_girls">Hai Chị Em</string>
+    <string name="two_girls_info">Hai chị em thức dậy trong buổi tối đầu tiên để nhận biết nhau. Cũng chỉ là dân làng bình thường nhưng có thể biết mặt nhau.</string>
+
+    <string name="builder">Thợ Xây</string>
+    <string name="builder_info">Các nhà xây dựng thức dậy trong buổi tối đầu tiên để nhận biết nhau. Cũng chỉ là dân làng bình thường nhưng có thể biết mặt nhau.</string>
+
+    <string name="old_village">Già Làng</string>
+    <string name="old_village_info">Già Lang có 2 mạng khi bị cắn. Tuy nhiên nếu bị treo cổ, bị Thợ Săn bắn hoặc bị Phù Thủy giết thì Già Làng vẫn chết, tất cả các vai trò đặc biệt (bảo vệ, tiên tri, phù thủy, thợ săn, ...) đều bị mất chức năng.</string>
+
+    <string name="protector">Bảo Vệ</string>
+    <string name="protector_info">Mỗi đêm thức dậy. Bảo Vệ sẽ được chọn một người. Nếu Sói cắn trúng người đó sẽ không chết. Tuy có thể tự bảo vệ mình nhưng Bảo Vệ không được Bảo Vệ một người trong hay đêm liên tiếp. Lưu ý: Người được bảo vệ vẫn có thể chết do bị Phù Thủy đầu độc.</string>
+
+    <string name="wolf">Sói Thường</string>
+    <string name="wolf_info">Mỗi đêm thức dậy, các Sói sẽ biết mặt lẫn nhau và sẽ cùng thống nhất giết một người. Sói có quyền không giết, và cũng có quyền giết lẫn nhau.</string>
+
+    <string name="prophet">Tiên Tri</string>
+    <string name="prophet_info">Mỗi đêm chọn một người chơi để soi xem người đó có phải sói hay không.</string>
+
+    <string name="witch">Phù Thủy</string>
+    <string name="witch_info">Phù thủy có 1 bình cứu và 1 bình giết trong suốt game.</string>
+
+    <string name="hunter">Thợ Săn</string>
+    <string name="hunter_info">Mỗi đêm thức dậy, chọn một người bất kì. Nếu Thợ Săn chết dù bất kì hình thức nào thì người đã chọn sẽ chết theo.</string>
+
+    <string name="inverse_person">Người Nghịch Đảo</string>
+    <string name="inverse_person_info">Mỗi đêm thức dậy, chọn một người bất kì. Người được lựa chọn sẽ được đảo ngược chức năng vào đêm đó:
+    \n\nSói không giết được dân làng
+    \n\nBảo vệ không bảo vệ được dân làng
+    \n\nPhù thủy không giết, cứu người
+    \n\nGià làng sẽ chết ngay khi bị Sói cắn,...</string>
+
+    <string name="cupid">Thần Tình Ái</string>
+    <string name="cupid_info">Đầu mỗi ván chơi, Cupid sẽ được gọi dậy và chọn ra hai người yêu nhau. Cupid sau đó nhắm mắt lại và hai người yêu nhau sẽ được Quản Trò gọi dậy để biết mặt và Vai Trò của nhau. Nếu hay người thuộc hay phe khác nhau (Sói Vs Dân) thì họ thành phe thứ 3 với nhiệm vụ là hai người cuối cùng sống sót.</string>
+
+    <string name="nomads">Du Mục</string>
+    <string name="nomads_info">Mỗi đêm thức dậy, chọn một người bất kì. Nếu người chơi đó chết trong đêm thì bạn chết cùng. Bạn không thể bị giết một cách trực tiếp.</string>
+
+    <string name="idiot">Thằng Khờ</string>
+    <string name="idiot_info">Là dân thường. Tuy nhiên khi bi treo cổ thì Thằng Khờ không chết, nhưng bị lộ vai và mất phiếu bầu, tuy vẫn có thể tham gia bàn luận cùng mọi người.</string>
+
+    <string name="grandmother">Bà Ngoại Cáu Kỉnh</string>
+    <string name="grandmother_info">Mỗi đêm thức dậy, chọn một người bất kì. Người chơi đó không được bình chọn trong cả ngày.</string>
+
+    <string name="hui_sick">Người Bị Bệnh Hủi</string>
+    <string name="hui_sick_info">Khi bạn bị giết bởi Ma Sói. Thì Sói sẽ không giết được người vào đêm hôm sau.</string>
+
+    <string name="mad_scientist">Nhà Khoa Học Điên</string>
+    <string name="mad_scientist_info">Khi bị chết bởi bất kì lý do gì. Bạn phóng ra chất độc giết chết 2 người kế bên bạn.</string>
+
+    <string name="bully">Đầu Gấu</string>
+    <string name="bully_info">Khi bị Sói giết. Bạn sẽ sống được cho tới hết ngày hôm sau.</string>
+
+    <string name="wolf_baby">Ma Sói Con</string>
+    <string name="wolf_baby_info">Thức dậy mỗi tối cùng các Ma Sói khác để giết dân làng. Khi bạn chết, đêm hôm sau các sói sẽ giết được thêm 1 dân làng nữa.</string>
+
+    <string name="wolf_sniffing">Ma Sói Đánh Hơi</string>
+    <string name="wolf_sniffing_info">Thức dậy mỗi tối cùng các Ma Sói khác để giết dân làng. Thức dậy thêm lần nữa, bạn chọn một người để tim kiếm tiên tri, già làng.</string>
+
+    <string name="knight">Hiệp Sỹ Mang Kiếm Độc</string>
+    <string name="knight_info">Nếu Hiệp Sỹ chết dù bất kì hình thức nào thì Ma Sói bên trái (Ở phía Dưới) của hiệp sỹ sẽ chết theo.</string>
+</resources>

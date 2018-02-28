@@ -1,0 +1,48 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Multi Players Wifi. -->
+    <dimen name="item_offset">10dp</dimen>
+    <dimen name="detail_backdrop_height">250dp</dimen>
+    <dimen name="backdrop_title">25dp</dimen>
+    <dimen name="backdrop_subtitle">15dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_album_radius">0dp</dimen>
+    <dimen name="album_cover_height">160dp</dimen>
+    <dimen name="album_title_padding">10dp</dimen>
+    <dimen name="album_title">15dp</dimen>
+    <dimen name="regions_padding_bottom">5dp</dimen>
+    <dimen name="regions">12dp</dimen>
+    <dimen name="ic_album_overflow_width">27dp</dimen>
+    <dimen name="ic_album_overflow_height">30dp</dimen>
+    <dimen name="ic_album_overflow_margin_top">10dp</dimen>
+
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+
+    <dimen name="padding_image_view">2dp</dimen>
+    <dimen name="detail_padding">14dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_size_medium">28sp</dimen>
+
+    <!-- One machine. -->
+    <dimen name="players_backdrop_height">150dp</dimen>
+    <dimen name="gv_players_item">96dp</dimen>
+
+    <!-- Players linrary. -->
+    <dimen name="ic_check_width">30dp</dimen>
+    <dimen name="ic_check_height">30dp</dimen>
+
+    <!-- Players Add. -->
+    <dimen name="players_add_image">150dp</dimen>
+
+    <!-- Roles. -->
+    <dimen name="ic_sub_add_width">27dp</dimen>
+    <dimen name="ic_sub_add_height">30dp</dimen>
+</resources>
